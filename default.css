@@ -1,7 +1,7 @@
 body {
-	background: #e1e1e1;
+	background: #ededed;
 	font-size: 90%;
-	font-family: Helvetica;
+	font-family: Optima, sans-serif;
 }
 
 p, div
@@ -21,7 +21,7 @@ div.tout {
 	padding-top: 1em;
 	padding-bottom: 12em;
 	background: white;
-	border-style: solid;
+	border-style: none;
 	border-width: 1px;
 }
 
@@ -30,13 +30,13 @@ h1, h2, h3 {
   margin-top: 1em;
   margin-bottom: 0em;
   line-height: 1.5;
-  color: #1751D8;
+  color: #0000c2;
 }
 
 h1 { font-size: 130%;  margin-bottom:1em;}
 h2 { font-size: 110%;  }
-h1, h2 { color: #1751D8; }
-h3 { font-size: 100%; color: #D91852; }
+h1, h2 { color: #0000c2; }
+h3 { font-size: 100%; color: #b80000; }
 
 
 div.sectionbody {
@@ -58,8 +58,8 @@ div.menu { margin-bottom: .8em; }
 
 ul.sanspuce { list-style-type: none; margin:auto; }
 
-/* A {font-family:Georgia, "Times New Roman", Times, serif;font-size:large;cursor: auto}  */
-	A:link, A:visited {color: #1751D8; }
+/* A {font-family:Georgia, "Times New Roman", Times, serif;font-size:large;cursor: auto} 0000c2  */
+	A:link, A:visited {color: #0000c2; }
 
 span.affiliation {
 	font-size: 80%;
@@ -129,7 +129,7 @@ div.selection {
     vertical-align:middle;
 	}
 div[activated=y] {
-	background-color: #18D97F;
+	background-color: #ededed;
 }
 .selection p {
     display:table-cell;
@@ -174,7 +174,7 @@ span.selection {
     line-height: 2em;
 	}
 span[activated=y] {
-	background-color: #18D97F;
+	background-color: #ededed;
 }
 
 div.homelinks {
@@ -218,7 +218,7 @@ div.logolink img {
 
 
 ul.menulist {
-	border: solid 2px #D91852;
+	border: solid 2px #b80000;
 	padding: 3px;
 	}
 
@@ -227,7 +227,7 @@ li.menuelement {
     display: block;
     text-align: center;
     padding: 14px;
-    color: #1751D8;
+    color: #0000c2;
     background-color: none;
     border: solid 3px white;
     font-size: 110%;
@@ -235,11 +235,11 @@ li.menuelement {
 	}
 
 li.menuelement:hover {
-    background-color: #18D97F;
+    background-color: #ededed;
 	}
 
 li.menuelement[activated=y] {
-    border: solid #18D97F 3px;
+    color: #b80000;
 	}
 li.menuelement[activated=n] {
     border: solid white 3px;
@@ -288,7 +288,7 @@ br.bibbase_paper_content {
 
 .bibbase_group {
 	font-size:110%;
-	color: #1751D8;
+	color: #0000c2;
     margin-top:0px;
     margin-left:0px;
 	}
