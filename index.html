@@ -83,17 +83,23 @@
     <h1><span onclick="gotoMENUlink('home')" style="cursor:pointer">Amir Anvari</span></h1>
 
     <ul class="menulist">
-    <!-- <li class="menuelement" name="cv" activated=n>Vitæ</li> -->
-    <li class="not menuelement" name="cv" activated=n>
-      <a href="https://arxiv.org/" target="_blank">arXiv.org</a>
-    </li>
+    <!-- <li class="menuelement" name="cv" activated=n>Vita</li> -->
     <li class="menuelement" name="home" activated=y>About</li>
     <li class="menuelement" name="RElinks" activated=n>Research</li>
     <li class="menuelement" name="contact" activated=n>Contact</li>
      </ul>
 
-    <script src="https://bibbase.org/show?bib=https%3A%2F%2Famiraanvari.github.io%2Fbib.bib&jsonp=1&theme=simple&filter=authors:Anvari&folding=0"></script>
+    <div id='home' style="overflow: hidden; display:block;" class="menu">
+    <p>about me</p>
+    </div>
 
+    <div id='RElinks' style="overflow: hidden; display:none;" class="menu">
+    <script src="https://bibbase.org/show?bib=https%3A%2F%2Famiraanvari.github.io%2Fbib.bib&jsonp=1&theme=simple&filter=authors:Anvari&folding=0"></script>
+    </div>
+
+    <div id='contact' style="overflow: hidden; display:none;" class="menu">
+    <p>Contact info</p>
+    </div>
 
   </div>
 </body>
