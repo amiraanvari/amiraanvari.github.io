@@ -1,3 +1,9 @@
+.papers-header {
+	background-color: #ededed;
+}
+
+span.nobr { white-space: nowrap; }
+
 body {
 	background: #ededed;
 	font-size: 90%;
