@@ -4,10 +4,19 @@
 
 span.nobr { white-space: nowrap; }
 
+a {text-decoration: none; }
+
 body {
 	background: #ededed;
-	font-size: 90%;
-	font-family: Optima, sans-serif;
+	font-size: 1em;
+	font-family: Optima;
+}
+
+h1#logo {
+  font-family: Optima;
+  font-size: 2em;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
 }
 
 p, div
